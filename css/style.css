@@ -1,0 +1,62 @@
+.logo{
+    border-radius: 50px;
+}
+ul{
+    align-items: center;
+    justify-content: center;
+}
+.main-nav li{
+    border-radius: 5px;
+    text-align: center;
+}
+.main-nav li a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
+}
+.photo-container{
+    position: relative;
+    margin-top: 5px;
+}
+
+.zoom{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 40%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.special{
+    position: absolute;
+    right: 5px;
+}
+.more{
+    background-color: rgb(61, 60, 60);
+    width: 70px;
+    border-radius: 3px;
+    color: white;
+}
+.main-footer{
+    margin-top: 30px;
+    height: 100%;
+}
+.main-footer ul{
+    border-radius: 10px;
+    height: 100%;
+}
+.main-footer li{
+    border-left: solid white;
+    height: 30%;
+}
+.main-footer a{
+    color: white;
+    text-decoration: none;
+}
